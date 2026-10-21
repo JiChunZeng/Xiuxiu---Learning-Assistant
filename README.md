@@ -27,14 +27,16 @@
 
 ## 她电脑上的一次设置
 
-仓库地址在上传完成后写在这里。在她的电脑上做一次：
+仓库地址：https://github.com/JiChunZeng/Xiuxiu---Learning-Assistant
+
+在她的电脑上做一次：
 
 1. 安装 Git。
 2. 只给这个私有仓库做一个细粒度令牌：GitHub → Settings → Developer settings → Fine-grained tokens → 只选这个仓库 → Contents 设为 Read and write。令牌只在她电脑的终端里贴一次，不要发进聊天记录。
 3. 克隆后在仓库里设置提交署名，让记录上能看出是她交的：
 
 ```
-git clone https://github.com/账号/xiuxiu.git
+git clone https://github.com/JiChunZeng/Xiuxiu---Learning-Assistant.git
 cd xiuxiu
 git config user.name "秀秀"
 git config user.email "xiuxiu@users.noreply.github.com"
